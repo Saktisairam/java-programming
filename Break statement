@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class forloopExample
+{
+    
+    public static void main(String[]args){
+        
+   for(int count =0;count<=17;count++)
+   { 
+       if(count==7){
+           break;
+       }
+      System.out.println(count) ;
+    }
+}
+ }
