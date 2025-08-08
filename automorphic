@@ -1,0 +1,13 @@
+
+public class Automorphic1to10 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            int square = i * i;
+            String numStr = String.valueOf(i);
+            String sqStr = String.valueOf(square);
+            if (sqStr.endsWith(numStr)) {
+                System.out.println(i + " is automorphic");
+            }
+        }
+    }
+}
