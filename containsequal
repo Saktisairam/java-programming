@@ -1,0 +1,14 @@
+
+    public class contentequals{
+        public static void main (String[]args){
+           
+            String data="Hello";
+            
+            
+        System.out.println(data.contentEquals("hel"));
+        System.out.println(data.contentEquals("he"));
+        System.out.println(data.contentEquals("hell"));
+        System.out.println(data.contentEquals("Hello"));
+        }
+       
+    }
