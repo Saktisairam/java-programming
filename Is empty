@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[]args){
+        String name="HELLO WORLD HOW ARE YOU";
+        
+       
+        System.out.println(name.isEmpty());
+    }
+}
