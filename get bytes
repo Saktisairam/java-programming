@@ -1,0 +1,9 @@
+
+class Main {
+    public static void main(String[]args){
+        String name="VIRAT";
+        byte[] arr=name.getBytes();
+       
+        System.out.println(arr[0]);
+    }
+}
