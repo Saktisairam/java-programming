@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner data=new Scanner(System.in);
+        System.out.println("enter s1:");
+        String s1=data.nextLine();
+        String s2=data.nextLine();
+        String[]rs=s1.split(s2);
+        for(String s:rs){
+            System.out.println(s);
+        }
+       
+    }
+}
+
