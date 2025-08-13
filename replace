@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        String x="Hello";
+        String y="Hello World" ;
+       
+        
+        System.out.println(x.replace('H','p') );
+        
+         System.out.println(x );
+        
+    }
+}
