@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner data=new Scanner(System.in);
+        String n="Santhosh";
+        byte[]b=n.getBytes();
+        System.out.println("Avalue:”+b[1]);
+        System.out.println("Hashcode:"+n.hashCode());
+    }
+}
